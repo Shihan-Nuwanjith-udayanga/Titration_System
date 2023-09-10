@@ -1,0 +1,85 @@
+section {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+section > img {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+#detailsView {
+  width: 45%;
+  height: 90%;
+  box-shadow: 0 0 8px 0 rgb(175, 175, 175);
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 40px 20px 20px 20px;
+  position: relative;
+  background: white;
+  text-align: center;
+}
+
+#detailsView > h1 {
+  margin: 15px;
+  position: relative;
+  width: fit-content;
+  width: fit-content;
+  color: rgb(255, 52, 86);
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#detailsForm {
+  width: 100%;
+  height: 95%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 20px;
+}
+
+#detailsForm > div {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: left;
+  box-shadow: 0 0 6px 0 rgb(184, 184, 184);
+}
+
+#detailsForm > div > p {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#detailsForm > div > p > mark{
+  background: pink;
+}
+
+#button {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background: rgb(187, 69, 91);
+  cursor: pointer;
+}
+
+#button > a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 12px 205px 12px 205px;
+  border-radius: 10px;
+}
+
+#button > a:hover {
+  background: rgb(224, 119, 138);
+}
